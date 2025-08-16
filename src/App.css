@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-900: #1e1e1e;
+  --color-dark-700: #252526;
+  --color-dark-500: #2d2d30;
+  --color-dark-300: #3e3e42;
+  --font-display: "Inter Tight", sans-serif;
+  --color-blue: #007acc;
+  --text-shadow-sm: 0px 0px 4px #3283ba;
+}
+
+.box-effect {
+  @apply transition duration-200 ease-in hover:bg-dark-300 hover:scale-105;
+}
